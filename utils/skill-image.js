@@ -2,6 +2,7 @@ import * as adobeXd from '/public/svg/skills/adobe-xd.svg';
 import adobeaudition from '/public/svg/skills/adobeaudition.svg';
 import afterEffects from '/public/svg/skills/after-effects.svg';
 import angular from '/public/svg/skills/angular.svg';
+import antdesign from '/public/svg/skills/antdesign.svg';
 import aws from '/public/svg/skills/aws.svg';
 import azure from '/public/svg/skills/azure.svg';
 import blender from '/public/svg/skills/blender.svg';
@@ -95,6 +96,8 @@ export const skillsImage = (skill) => {
       return css;
     case 'angular':
       return angular;
+    case 'antdesign':
+      return antdesign;
     case 'javascript':
       return javascript;
     case 'next js':
